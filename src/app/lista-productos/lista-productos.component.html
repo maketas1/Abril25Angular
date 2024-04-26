@@ -1,0 +1,8 @@
+@for (producto of productos; track $index) {
+    <ul>
+        <li>{{producto.idProducto}} {{producto.nombreProducto}} {{producto.precioUnitario}} {{producto.unidadesStock}}</li>
+    </ul>
+}
+@empty {
+    <p>No hay productos</p>
+}
