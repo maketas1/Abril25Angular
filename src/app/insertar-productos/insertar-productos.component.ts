@@ -11,7 +11,7 @@ import { ProductosService } from '../productos.service';
 })
 export class InsertarProductosComponent {
   producto:Productos = {
-    idProducto: 100,
+    idProducto: 200,
     nombreProducto: 'prueba',
     precioUnitario: 10.5,
     unidadesStock: 10
